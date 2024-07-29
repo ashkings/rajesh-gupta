@@ -17,7 +17,7 @@ const ContactForm = () => {
     setIsSubmitting(true);
     emailjs
       .send(SERVICE_ID, TEMPLATE_ID, data, PUBLIC_KEY)
-      .then((response) => {
+      .then(() => {
         alert('Message sent successfully!');
         setIsSubmitting(false);
         reset();
