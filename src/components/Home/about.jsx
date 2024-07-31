@@ -2,22 +2,18 @@ import React from 'react';
 
 const About = ({ handleClick }) => {
   return (
-    <div className="about text-white bg-[url('https://mlqyin6muymb.i.optimole.com/cb:oyP5.1537/w:1536/h:583/q:90/f:best/https://instituteofdigitaldentistry.com/wp-content/uploads/2023/09/iDD-cbct-image-panoramic-patient-scan.png')] bg-cover bg-center h-screen w-full flex flex-col gap-4 content-center">
+    <div className='about text-white bg-neutral-700 bg-cover bg-center h-screen w-full flex flex-col gap-4 content-center'>
       <h2 className='text-2xl'>Consultant Maxillofacial Radiologist</h2>
       <h6 className='text-2xl underline italic'>Dr Rajesh Gupta</h6>
       <p className='text-lg sm:text-xl'>
-        Dr Rajesh completed his graduation from Govt. Dental College and Hospital, Mumbai in 2008
-        and his Post-graduate degree in Oral Medicine and Radiology from YMT Dental College and
-        Hospital, Kharghar in 2013. During the post-graduate program he conducted studies related to
-        interpretation of dental and extra-oral radiographs with the intent to retrieve maximum
-        diagnostic information from basic radiographic examinations. He focused his dissertation on
-        the Clinical applications of Cone beam Computed Tomography in Dentistry.
+        DR RAJESH K GUPTA Completed his graduation from Himachal Pradesh University, India in 2008
+        and post graduation from MM University, in 2013 in Oral Medicine & Radiology. He has keen
+        interest in Oral Radiology and conducted many studies in Radiology in last 15 years. He is
+        presently working as Professor In Dept. Of Oral Medicine & Radiology with 11 years of
+        experience of expertise in guiding many postgraduate doctors in field of Oral radiology. He
+        has been doing CBCT reporting from past many years with renounced centres across country.
       </p>
-      <p className='text-lg sm:text-xl'>
-        Since 2014, he has been reporting for dental practitioners in Mumbai, Thane and Panvel. -
-        get in touch to experience our reporting services today.
-      </p>
-      <button className='bg-blue-500 text-white p-2 rounded w-fit' onClick={handleClick}>
+      <button className='bg-[#FFBE3C] text-black p-2 rounded w-fit' onClick={handleClick}>
         Contact
       </button>
     </div>

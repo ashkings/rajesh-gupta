@@ -3,7 +3,6 @@ import SampleCase from './sampleCase';
 import Introduction from './introduction';
 import About from './about';
 import Contact from './contact';
-import Services from './services';
 import { SAMPLE_CASES } from '../../utils/constants';
 import './home.scss';
 
@@ -17,43 +16,32 @@ const Home = () => {
     <>
       <Introduction />
       <About handleClick={scrollToContact} />
-      <Services />
-      <div className='service-1 text-white flex  content-center'>
-        <div className='info p-5 w-1/2 bg-[#293C53] flex flex-col gap-4'>
-          <h2 className='text-2xl bg-[#24499C] w-max'>Reporting Services</h2>
+      <div className='services text-white flex  content-center'>
+        <div className='info p-5 w-1/2 bg-[#212121] flex flex-col gap-4'>
+          <h2 className='text-2xl bg-[#24499C] w-max'>Services</h2>
           <ul className='list-disc pl-5 text-lg sm:text-xl'>
-            <li>Alveolar bone assessment for implant placement and planning.</li>
-            <li>Endodontic assessment</li>
-            <li>
-              Interpretation of cyst, tumor and other abnormalities in the maxillofacial region.
-            </li>
-            <li>Interpretation of fractures of the maxillofacial region</li>
+            <li>GET ONLINE - Cone Beam CT reporting within 24 hours.</li>
           </ul>
           <div className='text-lg sm:text-xl'>
             Submit a Cone beam CT, Panoramic (OPG), or Dental radiographic image for interpretation.
-            It is our keen intent to continue to provide quality reports in a timely manner that are
-            tailored to the specific needs of our referring dental practitioners and their patients.
+            Upload DICOM files @ rajesh42gupta@gmail.com
           </div>
         </div>
-        <div className="service-1-img bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0N7C1K8ZbrYGu4u3yO84Sh6Su2FlOHVjmDg&s')] bg-cover bg-center h-screen w-1/2"></div>
-      </div>
-
-      <div className='reporting-process text-white flex flex-col items-center bg-[#4C637F] opacity-[0.8215] gap-8 justify-center h-96'>
-        <h2 className='text-2xl'>Reporting Process</h2>
-        <div className='text-center text-lg sm:text-xl'>
-          The interpretation services are customized to meet the specific needs of each case. We
-          work collaboratively throughout the entire process. Contact us to find out how we can help
-          today. Cone Beam CT volume examinations can be uploaded to our secure website with the
-          click of a mouse. Web or Internet access, is all that is required to fully utilize our
-          services. We accept DICOM files through our secure Cloud drive and provide the
-          corresponding report through the same portal or at your desired email address provided.
-          Reports are delivered within 12-24 hours of study (DICOM) upload and order confirmation.
+        <div className='reporting-prices w-1/2 text-white bg-black p-5'>
+          <h2 className='text-2xl bg-[#24499C] w-max'>Reporting Prices</h2>
+          <div className='prices flex text-center p-2'>
+            <ul className='list-disc text-left text-lg sm:text-xl'>
+              <li>FULL MONTH - $30 USD</li>
+              <li>ONE ARCH - $25 USD</li>
+              <li>ONE QUADRANT REPORTS - $20 USD</li>
+            </ul>
+          </div>
         </div>
       </div>
 
-      <div className='cases flex flex-col bg-[#263F5B] h-screen text-white gap-8'>
-        <h2 className='text-center text-2xl'>Sample cases</h2>
-        <div className='sample-cases flex gap-8 items-center justify-center'>
+      <div className='cases flex flex-col bg-neutral-700 h-screen text-white gap-8'>
+        <h2 className='text-2xl'>Sample cases</h2>
+        <div className='sample-cases flex flex-col gap-4'>
           {SAMPLE_CASES.map((item, ind) => (
             <SampleCase title={item.title} src={item.src} desc={item.desc} key={ind} />
           ))}

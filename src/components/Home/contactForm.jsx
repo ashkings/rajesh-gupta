@@ -31,7 +31,7 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className='space-y-4 p-4 max-w-md mx-auto bg-[#B5B3F9] border-fuchsia-200 border-solid border-2 rounded-lg'
+      className='space-y-4 p-4 max-w-md mx-auto bg-[#FFBE3C] border-[#e69c00] border-solid border-2 rounded-lg'
     >
       <h1 className='text-2xl'>Get in touch</h1>
       <div className='flex gap-8'>
@@ -100,7 +100,7 @@ const ContactForm = () => {
         {errors.message && <p className='text-red-500'>Message is required</p>}
       </div>
 
-      <button type='submit' className='bg-blue-500 text-white p-2 rounded' disabled={isSubmitting}>
+      <button type='submit' className='bg-black text-white p-2 rounded' disabled={isSubmitting}>
         Submit
       </button>
     </form>
