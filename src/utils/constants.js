@@ -2,9 +2,9 @@ import case1 from '../images/case1.png';
 import case2 from '../images/case2.png';
 import case3 from '../images/case3.png';
 
-export const SERVICE_ID = 'service_5l8j0eu';
-export const TEMPLATE_ID = 'template_ev89lbi';
-export const PUBLIC_KEY = 'yBuTrUR9kSLov6g_Q';
+export const SERVICE_ID = 'service_5sjxkdm';
+export const TEMPLATE_ID = 'template_a7qb05s';
+export const PUBLIC_KEY = 'Lxea7AGm4W6n-S7Pu';
 
 export const SAMPLE_CASES = [
   {
