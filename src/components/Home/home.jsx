@@ -31,9 +31,11 @@ const Home = () => {
           <h2 className='text-2xl bg-[#24499C] w-max'>Reporting Prices</h2>
           <div className='prices flex text-center p-2'>
             <ul className='list-disc text-left text-lg sm:text-xl'>
-              <li>FULL MONTH - $30 USD</li>
-              <li>ONE ARCH - $25 USD</li>
-              <li>ONE QUADRANT REPORTS - $20 USD</li>
+              <li>FULL MOUTH CBCT - $75 USD</li>
+              <li>ONE ARCH CBCT - $50 USD</li>
+              <li>ONE QUADRANT CBCT REPORTS - $30 USD</li>
+              <br />
+              <li>ONE QUADRANT CBCT REPORTS - $25 USD</li>
             </ul>
           </div>
         </div>
