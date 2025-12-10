@@ -9,7 +9,7 @@ const About = ({ handleClick }) => {
         DR RAJESH K GUPTA Completed his graduation from Himachal Pradesh University, India in 2008
         and post graduation from MM University, in 2013 in Oral Medicine & Radiology. He has keen
         interest in Oral Radiology and conducted many studies in Radiology in last 15 years. He is
-        presently working as Professor In Dept. Of Oral Medicine & Radiology with 11 years of
+        presently working as Professor In Dept. Of Oral Medicine & Radiology with 13 years of
         experience of expertise in guiding many postgraduate doctors in field of Oral radiology. He
         has been doing CBCT reporting from past many years with renounced centres across country.
       </p>
